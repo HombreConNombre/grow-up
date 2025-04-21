@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block content %}
+    <head>
+        {{user.first_name}}
+    </header>
+    <section id="posts" class="modify">
+        {% for post in posts %}
+            <h3 class="author">{{ post.author }}</h3>
+            <p class="content">{{ post.content }}</p>
+            <small class="created_at">{{ post.created_at}}</small>
+        {% endfor %}
+    </section>
+    <footer>
+
+    </footer>
+{% endblock content %}

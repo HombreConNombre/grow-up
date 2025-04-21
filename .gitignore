@@ -1,0 +1,15 @@
+# .gitignore
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.log
+env/
+venv/
+*.env
+*.DS_Store
+/staticfiles/
+/media/
+/node_modules/
+/migrations/
+db.sqlite3
+virtualenv/
